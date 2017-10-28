@@ -20,7 +20,7 @@ public class HelloServlet extends HttpServlet {
         ServletOutputStream out = resp.getOutputStream();
         String videoUrl = req.getParameter("videoUrl");
 
-        out.write(String.format("hello heroku %s by ds", videoUrl).getBytes());
+        out.write(String.format("hello heroku '%s' by ds", videoUrl).getBytes());
         out.flush();
         out.close();
     }

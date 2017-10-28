@@ -1,5 +1,5 @@
 <html>
     <body>
-        <h2>Hello Heroku by Ds!</h2>
+        <h2>Hello Heroku by DS!</h2>
     </body>
 </html>
